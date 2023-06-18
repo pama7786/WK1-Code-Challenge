@@ -29,7 +29,7 @@ To accomplish this, we can use the following steps:
 4. Print the total number of demerit points.
 5. If the driver gets more than 12 points, print "License suspended".
 
-####challeneg3
+####challenge3
 
 This project is a net salary calculator. It takes as input the basic salary and benefits, and calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
 To accomplish this, we can use the following steps:
