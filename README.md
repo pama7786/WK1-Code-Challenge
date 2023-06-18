@@ -2,8 +2,6 @@
 
 
 #Introduction
-
-
 This is week one code challenge of phase 1
 
 
