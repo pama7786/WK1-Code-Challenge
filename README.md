@@ -2,10 +2,14 @@
 
 
 #Introduction
+
+
 This is week one code challenge of phase 1
 
 
 ##challenge1
+
+
 This project is a student grade generator. It prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade:
 A &#62; 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40.
 To accomplish this, we can use the following steps:
