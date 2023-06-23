@@ -15,7 +15,18 @@ function calculateGrade(marks){
         return "invalid marks"
     }
 }
-let marks = parseInt(60)//input your marks here
-let grid = calculateGrade(marks)
-console.log(grid)
+// Readline module for reading input from the console
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Prompt the user to enter student marks
+rl.question('Enter student marks (between 0 and 100): ', (answer) => {
+  const studentMarks = parseFloat(answer); // Parse the input as a floating-point number
+  const grade = calculateGrade(studentMarks); // Call the calculateGrade function to get the grade
+  console.log(`The grade for the student is: ${grade}`); // Display the grade in the console
+  rl.close(); // Close the readline interface
+});
 
